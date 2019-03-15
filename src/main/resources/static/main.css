@@ -1,0 +1,505 @@
+/*@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans");*/
+/*body {*/
+  /*font-family: 'Open Sans', sans-serif;*/
+  /*color: #546E7A;*/
+  /*font-size: 14px;*/
+  /*font-weight: 400;*/
+  /*background: #fff;*/
+  /*overflow-x: hidden;*/
+/*}*/
+
+/*html {*/
+  /*overflow-x: hidden;*/
+/*}*/
+
+/*p {*/
+  /*font-size: 14px;*/
+  /*color: #546E7A;*/
+  /*line-height: 26px;*/
+  /*font-family: 'Open Sans', sans-serif;*/
+  /*margin-bottom: 0;*/
+/*}*/
+
+/*a:hover, a:focus {*/
+  /*color: #F97794;*/
+/*}*/
+
+/*a {*/
+  /*color: #F97794;*/
+  /*-webkit-transition: all 0.3s ease-in-out;*/
+  /*-moz-transition: all 0.3s ease-in-out;*/
+  /*-o-transition: all 0.3s ease-in-out;*/
+  /*transition: all 0.3s ease-in-out;*/
+/*}*/
+
+/*h1, h2, h3, h4, h5 {*/
+  /*font-family: 'Montserrat', sans-serif;*/
+  /*font-size: 40px;*/
+  /*font-weight: 700;*/
+  /*color: #263238;*/
+/*}*/
+
+
+/*a:hover,*/
+/*a:focus {*/
+  /*text-decoration: none;*/
+  /*outline: none;*/
+/*}*/
+
+/*a:not([href]):not([tabindex]) {*/
+  /*color: #fff;*/
+/*}*/
+
+/*a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {*/
+  /*color: #fff;*/
+/*}*/
+
+
+/*#carousel-area {*/
+  /*overflow: hidden;*/
+  /*background: #2c3e50;*/
+/*}*/
+
+/*#carousel-area .carousel-item {*/
+  /*background-size: 100%;*/
+/*}*/
+
+/*#carousel-area .carousel-item .carousel-caption {*/
+  /*top: 32%;*/
+  /*right: 10%;*/
+  /*left: 12%;*/
+  /*text-shadow: none;*/
+  /*padding-top: 0;*/
+  /*padding-bottom: 0;*/
+/*}*/
+
+/*#carousel-area .carousel-item .carousel-caption h3 {*/
+  /*color: #fff;*/
+  /*font-weight: 500;*/
+  /*font-size: 26px;*/
+  /*line-height: 38px;*/
+/*}*/
+
+/*#carousel-area .carousel-item .carousel-caption h2 {*/
+  /*font-size: 80px;*/
+  /*font-weight: 700;*/
+  /*color: #fff;*/
+/*}*/
+
+/*#carousel-area .carousel-item .carousel-caption h4 {*/
+  /*color: #ffffff;*/
+  /*font-size: 18px;*/
+  /*font-weight: 500;*/
+  /*margin-bottom: 30px;*/
+/*}*/
+
+/*#carousel-area .carousel-control {*/
+  /*display: none;*/
+  /*-webkit-transition: all 0.3s ease-in-out;*/
+  /*-moz-transition: all 0.3s ease-in-out;*/
+  /*-o-transition: all 0.3s ease-in-out;*/
+  /*transition: all 0.3s ease-in-out;*/
+/*}*/
+
+/*#carousel-area:hover .carousel-control {*/
+  /*display: block;*/
+  /*-webkit-transition: all 0.3s ease-in-out;*/
+  /*-moz-transition: all 0.3s ease-in-out;*/
+  /*-o-transition: all 0.3s ease-in-out;*/
+  /*transition: all 0.3s ease-in-out;*/
+  /*-webkit-animation-duration: 1s;*/
+  /*animation-duration: 1s;*/
+  /*-webkit-animation-fill-mode: both;*/
+  /*animation-fill-mode: both;*/
+  /*-webkit-animation-name: fadeIn;*/
+  /*animation-name: fadeIn;*/
+/*}*/
+
+/*#carousel-area .carousel-control-next, #carousel-area .carousel-control-prev {*/
+  /*opacity: 1;*/
+/*}*/
+
+/*#carousel-area .carousel-control-next i, #carousel-area .carousel-control-prev i {*/
+  /*width: 48px;*/
+  /*line-height: 48px;*/
+  /*height: 48px;*/
+  /*color: #fff;*/
+  /*font-size: 24px;*/
+  /*display: inline-block;*/
+  /*background: #F97794;*/
+  /*border-radius: 30px;*/
+  /*-webkit-transition: all 0.2s linear;*/
+  /*-moz-transition: all 0.2s linear;*/
+  /*-o-transition: all 0.2s linear;*/
+  /*transition: all 0.2s linear;*/
+/*}*/
+
+/*#carousel-area .carousel-control-next i:hover, #carousel-area .carousel-control-prev i:hover {*/
+  /*opacity: 0.9;*/
+/*}*/
+
+/*#carousel-area .carousel-indicators li:hover,*/
+/*#carousel-area .carousel-indicators li.active {*/
+  /*opacity: 1;*/
+/*}*/
+
+/*#carousel-area .carousel-indicators {*/
+  /*bottom: 35px;*/
+/*}*/
+
+/*#carousel-area .carousel-indicators li {*/
+  /*width: 30px;*/
+  /*height: 7px;*/
+  /*border-radius: 4px;*/
+/*}*/
+
+/*#slider-area {*/
+  /*margin-top: -1px;*/
+/*}*/
+
+/*#slider-area .btn {*/
+  /*margin-right: 15px;*/
+/*}*/
+
+/*#slider-area .large_white {*/
+  /*color: #fff;*/
+/*}*/
+
+/*#slider-area .about-info p {*/
+  /*color: #333;*/
+/*}*/
+
+/*.btn {*/
+  /*font-size: 14px;*/
+  /*padding: 10px 30px;*/
+  /*border-radius: 30px;*/
+  /*font-weight: 400;*/
+  /*color: #fff;*/
+  /*text-transform: uppercase;*/
+  /*-webkit-transition: all 0.3s ease-in-out;*/
+  /*-moz-transition: all 0.3s ease-in-out;*/
+  /*-o-transition: all 0.3s ease-in-out;*/
+  /*transition: all 0.3s ease-in-out;*/
+  /*display: inline-block;*/
+/*}*/
+
+/*.btn:focus,*/
+/*.btn:active {*/
+  /*box-shadow: none;*/
+  /*outline: none;*/
+  /*color: #fff;*/
+/*}*/
+
+/*.btn-common {*/
+  /*background-color: #F97794;*/
+  /*position: relative;*/
+  /*z-index: 1;*/
+  /*padding: 12px 32px;*/
+  /*border-radius: 30px;*/
+/*}*/
+
+/*.btn-common:hover {*/
+  /*color: #fff;*/
+/*}*/
+
+/*.btn-effect {*/
+  /*overflow: hidden;*/
+/*}*/
+
+/*.btn-effect:after {*/
+  /*content: '';*/
+  /*position: absolute;*/
+  /*width: 0;*/
+  /*height: 100%;*/
+  /*z-index: 1;*/
+  /*left: 0;*/
+  /*top: 0;*/
+  /*background: rgba(0, 0, 0, 0.1);*/
+  /*-webkit-transition: all 0.3s ease;*/
+  /*-moz-transition: all 0.3s ease;*/
+  /*transition: all 0.3s ease;*/
+/*}*/
+
+/*.btn-effect:hover:after {*/
+  /*width: 100%;*/
+/*}*/
+
+/*.btn-lg {*/
+  /*padding: 14px 33px;*/
+  /*text-transform: uppercase;*/
+  /*font-size: 16px;*/
+/*}*/
+
+/*button:focus {*/
+  /*outline: none !important;*/
+/*}*/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #546E7A;
+  font-size: 14px;
+  font-weight: 400;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 14px;
+  color: #546E7A;
+  line-height: 26px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0;
+}
+
+a:hover, a:focus {
+  color: #F97794;
+}
+
+a {
+  color: #F97794;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #263238;
+}
+
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+a:not([href]):not([tabindex]) {
+  color: #fff;
+}
+
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+  color: #fff;
+}
+
+
+#carousel-area {
+  overflow: hidden;
+  background: #2c3e50;
+}
+
+#carousel-area .carousel-item {
+  background-size: 100%;
+}
+
+#carousel-area .carousel-item {
+  top: 32%;
+  right: 10%;
+  left: 12%;
+  text-shadow: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.carousel-caption {
+  top: 300px;
+  text-shadow: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#carousel-area .carousel-item .carousel-caption h3 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 38px;
+}
+
+#carousel-area .carousel-item .carousel-caption h2 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#carousel-area .carousel-item .carousel-caption h4 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+#carousel-area .carousel-control {
+  display: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#carousel-area:hover .carousel-control {
+  display: block;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+#carousel-area .carousel-control-next, #carousel-area .carousel-control-prev {
+  opacity: 1;
+}
+
+#carousel-area .carousel-control-next i, #carousel-area .carousel-control-prev i {
+  width: 48px;
+  line-height: 48px;
+  height: 48px;
+  color: #fff;
+  font-size: 24px;
+  display: inline-block;
+  background: #F97794;
+  border-radius: 30px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#carousel-area .carousel-control-next i:hover, #carousel-area .carousel-control-prev i:hover {
+  opacity: 0.9;
+}
+
+#carousel-area .carousel-indicators li:hover,
+#carousel-area .carousel-indicators li.active {
+  opacity: 1;
+}
+
+#carousel-area .carousel-indicators {
+  bottom: 35px;
+}
+
+#carousel-area .carousel-indicators li {
+  width: 30px;
+  height: 7px;
+  border-radius: 4px;
+}
+
+#slider-area {
+  margin-top: -1px;
+}
+
+#slider-area .btn {
+  margin-right: 15px;
+}
+
+#slider-area .large_white {
+  color: #fff;
+}
+
+#slider-area .about-info p {
+  color: #333;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.btn:focus,
+.btn:active {
+  box-shadow: none;
+  outline: none;
+  color: #fff;
+}
+
+.btn-common {
+  background-color: #F97794;
+  position: relative;
+  z-index: 1;
+  padding: 12px 32px;
+  border-radius: 30px;
+}
+
+.btn-common:hover {
+  color: #fff;
+}
+
+.btn-common1 {
+  background-color: #F97794;
+  position: absolute;
+  float: right;
+  z-index: 1;
+  padding: 12px 32px;
+  border-radius: 30px;
+}
+
+.btn-common1:hover {
+  color: #fff;
+}
+
+.btn-effect {
+  overflow: hidden;
+}
+
+.btn-effect:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.btn-effect:hover:after {
+  width: 100%;
+}
+
+.btn-lg {
+  padding: 14px 33px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.btn-common1 {
+  background-color: #F97794;
+  position: absolute;
+  float: right;
+  z-index: 1;
+  padding: 12px 32px;
+  border-radius: 30px;
+}
+
+.btn-common1:hover {
+  color: #fff;
+}

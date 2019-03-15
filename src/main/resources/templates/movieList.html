@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Bootstrap, Landing page, Template, Registration, Landing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="Grayrids">
+
+    <title>Movies</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+          href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../main.css"/>
+</head>
+<body>
+<header id="slider-area">
+    <div id="carousel-area">
+        <div id="carousel-slider" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div style="padding-left: 1200px">
+                        <a href="/ui/movie" class="btn btn-lg btn-effect btn-common1 "
+                           style="margin-top: 10px; height: 40px; font-size: 12px;">Back</a>
+                    </div>
+                    <h4 style="color:#ffffff;">Movies</h4>
+                    <div class="table-responsive">
+                        <table id="mytable" class="table">
+                            <thead>
+                            <th style="color:#ffffff;">Title</th>
+                            <th></th>
+                            </thead>
+                            <tbody>
+                            <tr th:each="movie : ${movies}">
+                                <td th:text="${movie.getTitle()}" style="color:#ffffff;">Title</td>
+                                <td>
+                                    <form th:action="@{/movie/details}">
+                                        <button type="submit" class="btn btn-lg btn-effect btn-common"
+                                                style=" height: 40px; font-size: 12px;">Details
+                                        </button>
+                                        <input name="imdbID" th:value="${movie.getImdbID()}" hidden>
+                                    </form>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+</body>
+</html>
